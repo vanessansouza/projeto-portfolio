@@ -31,12 +31,16 @@ body {
 }
 
 header {
-  background-color: var(--destaque);
-  color: var(--texto);
-  padding: 10px;
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  background-color: var(--destaque);
+  color: var(--texto);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  
 }
 
 nav#menu ul {
